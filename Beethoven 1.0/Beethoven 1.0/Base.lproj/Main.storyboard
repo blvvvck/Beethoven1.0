@@ -73,12 +73,9 @@
                                 <rect key="frame" x="145" y="449" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="-&gt;Б"/>
-                                <connections>
-                                    <segue destination="Pkk-rZ-hbx" kind="modal" id="mAn-sm-Fov"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Буква А" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqf-hc-5ZE">
-                                <rect key="frame" x="145" y="391" width="62" height="21"/>
+                                <rect key="frame" x="145" y="391" width="58" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -91,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1F-O4-CzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2558" y="-924"/>
+            <point key="canvasLocation" x="1763" y="-876"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="tdc-FP-FQM">
@@ -101,22 +98,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="43b-yA-GnJ">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="7" id="43b-yA-GnJ">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="35" minY="35" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="6wZ-zi-IMV">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <rect key="frame" x="35" y="35" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </view>
                                 <connections>
-                                    <segue destination="D2R-HI-fgM" kind="show" id="az0-t8-KeN"/>
+                                    <segue destination="D2R-HI-fgM" kind="modal" id="Qdp-ya-eyf"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -129,25 +126,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUi-I2-26w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1659" y="-921"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Sxt-HL-j7b">
-            <objects>
-                <viewController id="Pkk-rZ-hbx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VV5-CZ-BTe"/>
-                        <viewControllerLayoutGuide type="bottom" id="3Dw-bp-MyW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1X4-Fz-AYf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qkb-zo-HWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3390" y="-921"/>
+            <point key="canvasLocation" x="881" y="-876"/>
         </scene>
         <!--Item-->
         <scene sceneID="Alb-r4-Hqt">
@@ -166,7 +145,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Алфавит"/>
                                 <connections>
-                                    <segue destination="eod-eD-fw2" kind="modal" id="A1G-cG-vLI"/>
+                                    <segue destination="f89-Nd-SH4" kind="modal" id="k2d-so-bSG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x34-6F-pLy">
@@ -182,25 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfV-0M-hte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-24" y="-923"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="Xqa-GY-BaR">
-            <objects>
-                <navigationController id="eod-eD-fw2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7xN-r3-LyM"/>
-                    <navigationItem key="navigationItem" id="1gy-tT-fJt"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="unS-39-910">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="f89-Nd-SH4" kind="relationship" relationship="rootViewController" id="n8N-eP-jmF"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aRa-je-yc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="842" y="-924"/>
+            <point key="canvasLocation" x="-24" y="-875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Blp-dZ-P3D">
@@ -268,7 +229,7 @@
                     <connections>
                         <segue destination="isx-HO-UEi" kind="relationship" relationship="viewControllers" id="rwT-B2-HEO"/>
                         <segue destination="g0n-Yf-zgM" kind="relationship" relationship="viewControllers" id="er2-2W-pN6"/>
-                        <segue destination="z89-4e-kaL" kind="relationship" relationship="viewControllers" id="fE0-tf-J2G"/>
+                        <segue destination="z89-4e-kaL" kind="relationship" relationship="viewControllers" id="2K1-YR-hCo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlh-Pc-acF" userLabel="First Responder" sceneMemberID="firstResponder"/>

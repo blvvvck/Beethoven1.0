@@ -11,6 +11,8 @@ import UIKit
 private let reuseIdentifier = "cell"
 
 class CollectionViewController: UICollectionViewController {
+    
+    var alphabet:[String] = ["А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,13 +51,13 @@ class CollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let labelView = UILabel()
         
-        var textView = UITextView()
-        textView.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
-       // textView.text("A")
-        
-        //textView.image = UIImage(named:"1")
-        //cell.backgroundView = imageView
+        labelView.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+        labelView.text = alphabet[indexPath.item]
+    
+    
+        cell.backgroundView = labelView
         
         // Configure the cell
     
