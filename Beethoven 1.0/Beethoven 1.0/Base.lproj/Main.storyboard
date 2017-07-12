@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ei1-XO-voj">
     <device id="retina4_0" orientation="portrait">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+>>>>>>> 4d67f6b391a8ddfd6864d042fcd68b8aef33f034
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -79,7 +84,11 @@
         <!--View Controller-->
         <scene sceneID="Blp-dZ-P3D">
             <objects>
+<<<<<<< HEAD
                 <viewController id="ei1-XO-voj" sceneMemberID="viewController">
+=======
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> 4d67f6b391a8ddfd6864d042fcd68b8aef33f034
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="22q-5H-vrv"/>
                         <viewControllerLayoutGuide type="bottom" id="5lo-wf-ko9"/>
@@ -122,7 +131,11 @@
                     </connections>
                 </tabBarController>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-1182" y="-124"/>
+=======
+            <point key="canvasLocation" x="239" y="122"/>
+>>>>>>> 4d67f6b391a8ddfd6864d042fcd68b8aef33f034
         </scene>
     </scenes>
 </document>
