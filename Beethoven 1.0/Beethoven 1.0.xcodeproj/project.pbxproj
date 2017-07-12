@@ -14,6 +14,8 @@
 		C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */; };
 		C35C1D4F1F160FCF003A57DA /* Beethoven_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D4E1F160FCF003A57DA /* Beethoven_1_0Tests.swift */; };
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
+		C35C1D681F163AB5003A57DA /* jest.gif in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D671F163AB5003A57DA /* jest.gif */; };
+		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C35C1D551F160FCF003A57DA /* Beethoven 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_1_0UITests.swift; sourceTree = "<group>"; };
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35C1D671F163AB5003A57DA /* jest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = jest.gif; path = ../../../jest.gif; sourceTree = "<group>"; };
+		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				C35C1D391F160FCF003A57DA /* AppDelegate.swift */,
 				C35C1D3B1F160FCF003A57DA /* ViewController.swift */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
+				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
+				C35C1D671F163AB5003A57DA /* jest.gif */,
 				C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */,
 				C35C1D451F160FCF003A57DA /* Info.plist */,
 			);
@@ -234,6 +240,7 @@
 			files = (
 				C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */,
 				C35C1D411F160FCF003A57DA /* Assets.xcassets in Resources */,
+				C35C1D681F163AB5003A57DA /* jest.gif in Resources */,
 				C35C1D3F1F160FCF003A57DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
 				C35C1D3C1F160FCF003A57DA /* ViewController.swift in Sources */,
 				C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */,
 			);
