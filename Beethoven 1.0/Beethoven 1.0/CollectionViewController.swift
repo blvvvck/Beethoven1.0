@@ -50,17 +50,18 @@ class CollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
         
-        let imageView = UIImageView()
-        imageView.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+        var textView = UITextView()
+        textView.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+       // textView.text("A")
         
-        imageView.image = UIImage(named:"1")
-        cell.backgroundView = imageView
+        //textView.image = UIImage(named:"1")
+        //cell.backgroundView = imageView
         
         // Configure the cell
     
         return cell
     }
-
+    
 
 
 }

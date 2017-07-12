@@ -14,7 +14,6 @@
 		C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */; };
 		C35C1D4F1F160FCF003A57DA /* Beethoven_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D4E1F160FCF003A57DA /* Beethoven_1_0Tests.swift */; };
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
-		C35C1D681F163AB5003A57DA /* jest.gif in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D671F163AB5003A57DA /* jest.gif */; };
 		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		C35C1D551F160FCF003A57DA /* Beethoven 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_1_0UITests.swift; sourceTree = "<group>"; };
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C35C1D671F163AB5003A57DA /* jest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = jest.gif; path = ../../../jest.gif; sourceTree = "<group>"; };
 		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +104,6 @@
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
-				C35C1D671F163AB5003A57DA /* jest.gif */,
 				C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */,
 				C35C1D451F160FCF003A57DA /* Info.plist */,
 			);
@@ -240,7 +237,6 @@
 			files = (
 				C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */,
 				C35C1D411F160FCF003A57DA /* Assets.xcassets in Resources */,
-				C35C1D681F163AB5003A57DA /* jest.gif in Resources */,
 				C35C1D3F1F160FCF003A57DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +511,7 @@
 				C35C1D601F160FCF003A57DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C35C1D611F160FCF003A57DA /* Build configuration list for PBXNativeTarget "Beethoven 1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +520,7 @@
 				C35C1D631F160FCF003A57DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C35C1D641F160FCF003A57DA /* Build configuration list for PBXNativeTarget "Beethoven 1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +529,7 @@
 				C35C1D661F160FCF003A57DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
