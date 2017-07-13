@@ -1,5 +1,5 @@
 //
-//  SeconViewControllerInMultiply.swift
+//  FirstViewControllerInMultiply.swift
 //  Beethoven 1.0
 //
 //  Created by BLVCK on 13.07.17.
@@ -8,16 +8,15 @@
 
 import UIKit
 
-class SeconViewControllerInMultiply: UIViewController {
+class FirstViewControllerInMultiply: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var TextLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        scrollView.contentSize = CGSize(width: view.bounds.width, height: 1000)
+        scrollView.contentSize = CGSize(width: view.bounds.width, height: 930)
         
     }
 
@@ -26,6 +25,11 @@ class SeconViewControllerInMultiply: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func returnToMenu1(_ sender: Any) {
+        guard let lParent = parent else { return }
+        
+        lParent.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
