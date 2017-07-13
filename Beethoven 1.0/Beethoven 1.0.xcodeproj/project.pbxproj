@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D391F160FCF003A57DA /* AppDelegate.swift */; };
-		C35C1D3C1F160FCF003A57DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D3B1F160FCF003A57DA /* ViewController.swift */; };
 		C35C1D3F1F160FCF003A57DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D3D1F160FCF003A57DA /* Main.storyboard */; };
 		C35C1D411F160FCF003A57DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D401F160FCF003A57DA /* Assets.xcassets */; };
 		C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */; };
 		C35C1D4F1F160FCF003A57DA /* Beethoven_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D4E1F160FCF003A57DA /* Beethoven_1_0Tests.swift */; };
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
 		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
+		C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		C35C1D361F160FCF003A57DA /* Beethoven 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beethoven 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C1D391F160FCF003A57DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C35C1D3B1F160FCF003A57DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C35C1D3E1F160FCF003A57DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C35C1D401F160FCF003A57DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35C1D431F160FCF003A57DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_1_0UITests.swift; sourceTree = "<group>"; };
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				C35C1D391F160FCF003A57DA /* AppDelegate.swift */,
-				C35C1D3B1F160FCF003A57DA /* ViewController.swift */,
-				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
+				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
+				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
 				C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */,
 				C35C1D451F160FCF003A57DA /* Info.plist */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,
 				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
-				C35C1D3C1F160FCF003A57DA /* ViewController.swift in Sources */,
 				C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

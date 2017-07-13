@@ -10,9 +10,26 @@ import UIKit
 
 private let reuseIdentifier = "cell"
 
+struct CellData {
+    var cellText: String
+    var cellImage: UIImage
+    var cellTextNext:String
+    var cellTextPast:String
+    
+    init(text: String, image: UIImage, textNext:String, textPast:String) {
+        cellText = text
+        cellImage = image
+        cellTextNext = textNext
+        cellTextPast = textPast
+    }
+}
+
 class CollectionViewController: UICollectionViewController {
     
     var alphabet:[String] = ["А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я"]
+    var countImage = 0
+    var cellDataArray:[CellData] = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +41,25 @@ class CollectionViewController: UICollectionViewController {
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        
+        
+        //заполнение массива CellDataAraay
+        for i in 0..<33 {
+            var cellData: CellData!
+        
+            if ( i != 32)&&(i != 0){
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[i+1]) >",textPast: "< \(alphabet[i-1])")
+            }
+            if i == 32 {
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[0]) >", textPast: "< \(alphabet[i-1])")
+            }
+            if i == 0{
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[1]) >", textPast: "< \(alphabet[32])")
+
+            }
+            cellDataArray.append(cellData)
+            countImage+=1
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,6 +99,25 @@ class CollectionViewController: UICollectionViewController {
     
         return cell
     }
+   
+    //задаем кнопке действие
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "jump", sender: indexPath.row)
+        
+    }
+    //push на ViewControllerForCollection
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "jump" && sender != nil {
+            
+            let destinationVC = segue.destination as! ViewControllerForCollectionViewController
+            destinationVC.models = cellDataArray
+            destinationVC.indexOfCurrentChar = sender as! Int
+            
+        }
+    }
+    
     
 
 
