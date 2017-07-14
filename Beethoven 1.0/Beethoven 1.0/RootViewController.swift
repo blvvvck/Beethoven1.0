@@ -14,9 +14,9 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         
-        let vc1 = sb.instantiateViewController(withIdentifier: "YellowVC")
+        let vc1 = sb.instantiateViewController(withIdentifier: "GreenVC")
         
-        let vc2 = sb.instantiateViewController(withIdentifier: "GreenVC")
+        let vc2 = sb.instantiateViewController(withIdentifier: "YellowVC")
         
         let vc3 = sb.instantiateViewController(withIdentifier: "RedVC")
         
