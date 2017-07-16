@@ -23,6 +23,16 @@ class SecondViewControllerMultiply: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func multiplyTask1ButtonPressed(_ sender: Any) {
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpMultiplyTask") as! MultiplyTaskPopUpViewController1
+        self.addChildViewController(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParentViewController: self)
+        
+        
+        
+    }
 
     /*
     // MARK: - Navigation

@@ -20,6 +20,7 @@
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
 		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
 		C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */; };
+		C78968131F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForCollectionViewController.swift; sourceTree = "<group>"; };
+		C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyTaskPopUpViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				95778C441F1655160016E36C /* RootViewController.swift */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
+				C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */,
 				2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */,
 				2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
@@ -279,6 +282,7 @@
 			files = (
 				958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */,
 				95778C451F1655160016E36C /* RootViewController.swift in Sources */,
+				C78968131F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift in Sources */,
 				2391A5F01F18BEB100AD0146 /* SecondViewControllerMultiply.swift in Sources */,
 				9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */,
 				2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */,
