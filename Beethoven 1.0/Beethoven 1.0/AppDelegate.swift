@@ -10,7 +10,7 @@ import UIKit
 import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
     
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .sound]){
+        /*center.requestAuthorization(options: [.alert, .sound]){
             granted, error in
             if granted{
                 print("We have permission")
@@ -37,10 +37,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let request = UNNotificationRequest(identifier: "MyNotification", content: content, trigger: trigger)
         
-        center.add(request)
+        center.add(request)*/
+        
+        center.delegate = self
         
         
         return true
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        print ("Received local notifications \(notification)")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
