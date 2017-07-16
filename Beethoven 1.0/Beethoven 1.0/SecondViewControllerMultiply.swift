@@ -9,11 +9,12 @@
 import UIKit
 
 class SecondViewControllerMultiply: UIViewController {
+    
+    var popUpShow = false
 
     @IBOutlet weak var scrollUIView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         scrollUIView.contentSize = CGSize(width: view.bounds.width, height: 1000)
 
     }
@@ -29,9 +30,7 @@ class SecondViewControllerMultiply: UIViewController {
         popOverVC.view.frame = self.view.frame
         self.view.addSubview(popOverVC.view)
         popOverVC.didMove(toParentViewController: self)
-        
-        
-        
+        popUpShow = true
     }
 
     /*

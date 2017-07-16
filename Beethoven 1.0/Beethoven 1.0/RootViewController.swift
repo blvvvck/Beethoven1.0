@@ -40,6 +40,10 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
+        if ((viewControllerList[0] as! SecondViewControllerMultiply).popUpShow) {
+            disableScroll()
+        }
+        
         guard let vcIndex = viewControllerList.index(of: viewController) else {return nil}
         
         let nextIndex = vcIndex + 1
@@ -54,6 +58,10 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
+        if ((viewControllerList[0] as! SecondViewControllerMultiply).popUpShow) {
+            disableScroll()
+        }
+        
         guard let vcIndex = viewControllerList.index(of: viewController) else {return nil}
         
         let previousIndex = vcIndex - 1
@@ -63,7 +71,12 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         guard viewControllerList.count > previousIndex else {return nil}
         
         return viewControllerList[previousIndex]
-        
+    }
+    
+    private func disableScroll() {
+        for recognizer: UIGestureRecognizer in self.gestureRecognizers {
+            recognizer.isEnabled = false
+        }
     }
     
 }

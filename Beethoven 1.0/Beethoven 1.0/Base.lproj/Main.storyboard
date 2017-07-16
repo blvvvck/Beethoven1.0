@@ -438,50 +438,80 @@
                         <viewControllerLayoutGuide type="bottom" id="A48-sW-71d"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tRG-vu-k7b">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ba8-Ai-5P0">
-                                <rect key="frame" x="16" y="28" width="288" height="456"/>
+                                <rect key="frame" x="16" y="28" width="294" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nq9-Cn-3vv">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="456"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t34-UW-bYm">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="660"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS1-hP-kGY">
-                                                <rect key="frame" x="80" y="312" width="128" height="217"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nq9-Cn-3vv">
+                                                <rect key="frame" x="-19" y="0.0" width="325" height="652"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Закрыть решение"/>
-                                                <connections>
-                                                    <action selector="closeTaskPopUp:" destination="ICv-Vp-wNd" eventType="touchUpInside" id="aTC-G2-cEJ"/>
-                                                </connections>
-                                            </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="задача1Умножение" translatesAutoresizingMaskIntoConstraints="NO" id="ZHS-IV-pef">
-                                                <rect key="frame" x="24" y="21" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JE1-bh-sQR">
-                                                <rect key="frame" x="8" y="126" width="280" height="240"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">На ри­сун­ке (рис. 1) изоб­ра­жен такой дом. Чтобы узнать ко­ли­че­ство квар­тир в доме, нужно сло­жить квар­ти­ры, на­хо­дя­щи­е­ся на пер­вом (4), вто­ром (4), тре­тьем (4), чет­вер­том (4) и пятом (4) эта­жах.
-
-4 + 4 + 4 + 4 + 4 = 20</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t34-UW-bYm">
-                                                <rect key="frame" x="-11" y="0.0" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </scrollView>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="задача1Умножение" translatesAutoresizingMaskIntoConstraints="NO" id="ZHS-IV-pef">
+                                                        <rect key="frame" x="42" y="20" width="263" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JE1-bh-sQR">
+                                                        <rect key="frame" x="19" y="143" width="286" height="230"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Чтобы узнать ко­ли­че­ство квар­тир в доме, нужно сло­жить квар­ти­ры, на­хо­дя­щи­е­ся на пер­вом (4), вто­ром (4), тре­тьем (4), чет­вер­том (4) и пятом (4) эта­жах.
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfd-vL-a8E">
+                                                        <rect key="frame" x="19" y="316" width="286" height="230"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">В при­ме­ре мы на­хо­дим сумму оди­на­ко­вых сла­га­е­мых. В ма­те­ма­ти­ке это можно за­ме­нить дру­гим дей­стви­ем – умно­же­ни­ем. Мы за­ме­ним сумму про­из­ве­де­ни­ем, мы сло­жи­ли 5 раз по 4 квар­ти­ры – это можно за­пи­сать как 4 · 5.
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 + 4 + 4 + 4 + 4 = 20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imz-Qe-rhO">
+                                                        <rect key="frame" x="52" y="316" width="229" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 + 4 + 4 + 4 + 4 = 4 · 5 = 20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5H-EI-DwG">
+                                                        <rect key="frame" x="28" y="514" width="277" height="26"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS1-hP-kGY">
+                                                        <rect key="frame" x="71" y="470" width="190" height="217"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <state key="normal" title="Закрыть решение"/>
+                                                        <connections>
+                                                            <action selector="closeTaskPopUp:" destination="ICv-Vp-wNd" eventType="touchUpInside" id="aTC-G2-cEJ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.92074750876064293" green="1" blue="0.44572014482692124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.92074750876064293" green="1" blue="0.44572014482692124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
+                                    </scrollView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="700"/>
+                    <connections>
+                        <outlet property="scrollView" destination="t34-UW-bYm" id="8xp-sS-8xD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gw4-Wv-1p0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

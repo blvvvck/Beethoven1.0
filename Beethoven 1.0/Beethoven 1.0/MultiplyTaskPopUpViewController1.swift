@@ -10,10 +10,13 @@ import UIKit
 
 class MultiplyTaskPopUpViewController1: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         self.showAnimate()
+        scrollView.contentSize = CGSize(width: 200, height: 800)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +26,7 @@ class MultiplyTaskPopUpViewController1: UIViewController {
     
 
     @IBAction func closeTaskPopUp(_ sender: Any) {
+        (parent as! SecondViewControllerMultiply).popUpShow = false
         self.removeAnimate()
         self.view.removeFromSuperview()
     }
