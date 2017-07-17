@@ -15,6 +15,7 @@
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
 		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
 		C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */; };
+		C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */; };
 		C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerForTest1.swift; path = ../ViewControllerForTest1.swift; sourceTree = "<group>"; };
+		C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForTest2.swift; sourceTree = "<group>"; };
 		C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				C35C1D391F160FCF003A57DA /* AppDelegate.swift */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
+				C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
 				C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,
 				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
 				C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */,
+				C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */,
 				C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

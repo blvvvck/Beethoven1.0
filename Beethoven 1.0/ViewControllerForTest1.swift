@@ -37,7 +37,7 @@ class ViewControllerForTest1: UIViewController {
     
     var randomNumber = 0
     var numberOfImage = ""
-    var arrayLetters:[String] = [ "", "", ""]
+    var arrayLetters:[String] = ["", "", ""]
     var flag = 1
     
     
@@ -82,7 +82,7 @@ class ViewControllerForTest1: UIViewController {
                 if arrayLetters[i] == "Я"{
                     arrayLetters[i] = "Р"
                 }
-                if arrayLetters[i] != "Я" {
+                else{
                     arrayLetters[i] = alphabet2[randomNumber + 1]
                 }
             }
