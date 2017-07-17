@@ -427,6 +427,114 @@
             </objects>
             <point key="canvasLocation" x="-24" y="-840"/>
         </scene>
+        <!--View Controller For Test2-->
+        <scene sceneID="ERc-Dt-fsl">
+            <objects>
+                <viewController id="XSm-DK-cp7" customClass="ViewControllerForTest2" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wqn-eK-hPo"/>
+                        <viewControllerLayoutGuide type="bottom" id="C4M-hf-gL2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jMI-OH-LKw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FqD-jh-bQQ">
+                                <rect key="frame" x="0.0" y="111" width="107" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wf8-TU-1DN">
+                                <rect key="frame" x="109" y="111" width="104" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alh-UH-YZ3">
+                                <rect key="frame" x="139" y="446" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Выберите изображение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSk-Dm-pOy">
+                                <rect key="frame" x="64" y="64" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="le9-T3-Z9S">
+                                <rect key="frame" x="214" y="111" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NHX-JM-5o5"/>
+                    <connections>
+                        <outlet property="image1Test2" destination="FqD-jh-bQQ" id="EbP-iF-vLx"/>
+                        <outlet property="image2Test2" destination="le9-T3-Z9S" id="c30-Pp-cTF"/>
+                        <outlet property="image3Test2" destination="Wf8-TU-1DN" id="L4g-SN-5VN"/>
+                        <outlet property="labelTest2" destination="alh-UH-YZ3" id="U4R-2O-IS9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zdg-nq-i6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728.75" y="-2301.7605633802818"/>
+        </scene>
+        <!--View Controller For Test1-->
+        <scene sceneID="G9P-Fk-pED">
+            <objects>
+                <viewController id="ud9-pT-H4V" customClass="ViewControllerForTest1" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="275-pb-zCb"/>
+                        <viewControllerLayoutGuide type="bottom" id="zvw-DE-uqO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4nB-1c-tiV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZJG-Ls-FpK">
+                                <rect key="frame" x="40" y="94" width="240" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QI-uW-41s">
+                                <rect key="frame" x="40" y="377" width="54" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButtonsForTest:" destination="ud9-pT-H4V" eventType="touchUpInside" id="lcn-4v-WTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jy4-R5-w4q">
+                                <rect key="frame" x="137" y="379" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButtonsForTest:" destination="ud9-pT-H4V" eventType="touchUpInside" id="JJJ-ud-RH5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-jr-dk4">
+                                <rect key="frame" x="210" y="379" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButtonsForTest:" destination="ud9-pT-H4V" eventType="touchUpInside" id="c18-hy-xsV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VqY-Kx-7J0"/>
+                    <connections>
+                        <outlet property="testButton1" destination="5QI-uW-41s" id="WGS-yn-lA3"/>
+                        <outlet property="testButton2" destination="Jy4-R5-w4q" id="ZdO-17-ioF"/>
+                        <outlet property="testButton3" destination="LY9-jr-dk4" id="3dt-lp-zeh"/>
+                        <outlet property="testImage" destination="ZJG-Ls-FpK" id="foS-6S-VMm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ep-z3-9da" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728.75" y="-1557.0422535211267"/>
+        </scene>
         <!--Языки жестов-->
         <scene sceneID="Alb-r4-Hqt">
             <objects>
@@ -448,9 +556,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x34-6F-pLy">
-                                <rect key="frame" x="61" y="180" width="33" height="30"/>
+                                <rect key="frame" x="61" y="186" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Тест"/>
+                                <state key="normal" title="Тест1"/>
+                                <connections>
+                                    <segue destination="ud9-pT-H4V" kind="push" id="yEf-6z-mC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4H-Ar-p1m">
+                                <rect key="frame" x="64" y="254" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Тест2"/>
+                                <connections>
+                                    <segue destination="XSm-DK-cp7" kind="push" id="kSY-a1-acx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -460,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfV-0M-hte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848" y="-839"/>
+            <point key="canvasLocation" x="847.5" y="-839.78873239436621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Blp-dZ-P3D">
