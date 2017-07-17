@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -359,7 +359,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Gac-BX-Ayc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6wO-oN-www">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1060"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uq5-0o-xDD">
@@ -374,7 +374,7 @@
                                         </items>
                                     </navigationBar>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="khR-Bs-bpK">
-                                        <rect key="frame" x="0.0" y="66" width="320" height="911"/>
+                                        <rect key="frame" x="0.0" y="66" width="320" height="1190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Привет! Сейчас мы по­зна­ко­мим­ся с дей­стви­ем умно­же­ние и узна­ем, как это дей­ствие свя­за­но со сло­же­ни­ем." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ll2-7H-gLH">
@@ -399,18 +399,53 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="задача1Умножение" translatesAutoresizingMaskIntoConstraints="NO" id="AHL-Hk-Fxm">
-                                                <rect key="frame" x="40" y="212" width="240" height="128"/>
+                                                <rect key="frame" x="40" y="211" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cO0-vs-82a">
-                                                <rect key="frame" x="55" y="348" width="211" height="64"/>
+                                                <rect key="frame" x="34" y="347" width="252" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Решение задачи"/>
+                                                <state key="normal" title="Разбор задачи про квартиры"/>
                                                 <connections>
                                                     <action selector="multiplyTask1ButtonPressed:" destination="BcU-Ka-khL" eventType="touchUpInside" id="aRI-yk-4YD"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="После разбора задачи с квартирами, попробуем разобрать еще одну задачу :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zND-G6-V9U">
+                                                <rect key="frame" x="8" y="397" width="304" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Со­ставь­те вы­ра­же­ние, для того чтобы узнать, сколь­ко кру­гов рас­по­ло­же­но на доске ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-0e-lDp">
+                                                <rect key="frame" x="0.0" y="471" width="320" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="кружки" translatesAutoresizingMaskIntoConstraints="NO" id="Slp-rt-iE7">
+                                                <rect key="frame" x="40" y="561" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLR-a5-nk5">
+                                                <rect key="frame" x="36" y="678" width="248" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Разбор задачи про кружки"/>
+                                                <connections>
+                                                    <action selector="multiplyTask2ButtonPressed:" destination="BcU-Ka-khL" eventType="touchUpInside" id="8BG-FR-7nT"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izx-vp-AIT">
+                                                <rect key="frame" x="17" y="732" width="287" height="245"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Смысл дей­ствия умно­же­ния со­сто­ит в том, что при умно­же­нии на­хо­дит­ся сумма оди­на­ко­вых сла­га­е­мых. Пер­вое число при умно­же­нии по­ка­зы­ва­ет, какое сла­га­е­мое по­вто­ря­ют несколь­ко раз. Вто­рое число при умно­же­нии по­ка­зы­ва­ет, сколь­ко раз по­вто­ря­ют это сла­га­е­мое. Ре­зуль­тат умно­же­ния по­ка­зы­ва­ет, какое число по­лу­ча­ет­ся.                                    На­при­мер : 4 · 3 = 12</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                     </scrollView>
                                 </subviews>
@@ -420,19 +455,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1000"/>
+                    <size key="freeformSize" width="320" height="1060"/>
                     <connections>
                         <outlet property="scrollUIView" destination="khR-Bs-bpK" id="fib-3v-yQy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI0-QK-2If" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1826.25" y="875.70422535211264"/>
+            <point key="canvasLocation" x="1823" y="907"/>
         </scene>
         <!--Multiply Task Pop Up View Controller1-->
         <scene sceneID="dDI-dr-6S4">
             <objects>
-                <viewController storyboardIdentifier="sbPopUpMultiplyTask" id="ICv-Vp-wNd" customClass="MultiplyTaskPopUpViewController1" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbPopUpMultiplyTask1" id="ICv-Vp-wNd" customClass="MultiplyTaskPopUpViewController1" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lxw-1G-dNH"/>
                         <viewControllerLayoutGuide type="bottom" id="A48-sW-71d"/>
@@ -452,10 +487,6 @@
                                                 <rect key="frame" x="-19" y="0.0" width="325" height="652"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="задача1Умножение" translatesAutoresizingMaskIntoConstraints="NO" id="ZHS-IV-pef">
-                                                        <rect key="frame" x="42" y="20" width="263" height="157"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JE1-bh-sQR">
                                                         <rect key="frame" x="19" y="143" width="286" height="230"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -497,6 +528,10 @@
                                                             <action selector="closeTaskPopUp:" destination="ICv-Vp-wNd" eventType="touchUpInside" id="aTC-G2-cEJ"/>
                                                         </connections>
                                                     </button>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="задача1Умножение" translatesAutoresizingMaskIntoConstraints="NO" id="ZHS-IV-pef">
+                                                        <rect key="frame" x="31" y="21" width="263" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.92074750876064293" green="1" blue="0.44572014482692124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
@@ -515,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gw4-Wv-1p0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1826.25" y="1788.3802816901409"/>
+            <point key="canvasLocation" x="1823" y="2093"/>
         </scene>
         <!--Last Page View Controller In First Method Multiply-->
         <scene sceneID="fDr-gO-XaZ">
@@ -793,10 +828,106 @@
             </objects>
             <point key="canvasLocation" x="-1178" y="-125"/>
         </scene>
+        <!--Multiply Task Pop Up View Controller1-->
+        <scene sceneID="m1v-7f-kOz">
+            <objects>
+                <viewController storyboardIdentifier="sbPopUpMultiplyTask2" id="cm5-hn-OvP" customClass="MultiplyTaskPopUpViewController1" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TnO-iG-5YK"/>
+                        <viewControllerLayoutGuide type="bottom" id="b5e-nt-g2R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qMF-Hi-ixm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="550"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Bi-oV-a7p">
+                                <rect key="frame" x="16" y="28" width="294" height="492"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ayn-9p-xEd">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="492"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mHv-OF-3MO">
+                                                <rect key="frame" x="-15" y="0.0" width="309" height="492"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTX-sQ-Jvp">
+                                                        <rect key="frame" x="23" y="155" width="286" height="140"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">По­смот­рим вни­ма­тель­но: мы видим, что в каж­дом ряду 6 кру­гов (важно, что ко­ли­че­ство кру­гов оди­на­ко­вое). Вы­ра­же­ние, ко­то­рое по­мо­жет нам узнать общее ко­ли­-
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 + 6 = 6 · 2 = 12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHM-Ca-LR3">
+                                                        <rect key="frame" x="28" y="395" width="277" height="26"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="кружки" translatesAutoresizingMaskIntoConstraints="NO" id="OXa-K4-hKI">
+                                                        <rect key="frame" x="35" y="21" width="263" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioX-EP-BIj">
+                                                        <rect key="frame" x="23" y="296" width="286" height="105"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Это сумма оди­на­ко­вых сла­га­е­мых, зна­чит, мы можем за­ме­нить ее про­из­ве­де­ни­ем:      
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="че­ство кру­гов : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPb-Us-rsO">
+                                                        <rect key="frame" x="54" y="267" width="126" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 + 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfj-sV-Umn">
+                                                        <rect key="frame" x="188" y="259" width="73" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtU-83-Yv0">
+                                                        <rect key="frame" x="77" y="429" width="178" height="63"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <state key="normal" title="Закрыть решение"/>
+                                                        <connections>
+                                                            <action selector="closeTaskPopUp:" destination="cm5-hn-OvP" eventType="touchUpInside" id="eJA-A1-86Q"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.9207475088" green="1" blue="0.4457201448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </scrollView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="550"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Ayn-9p-xEd" id="sDH-3c-yUr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJI-P7-bzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="2952"/>
+        </scene>
     </scenes>
     <resources>
         <image name="14" width="99" height="140"/>
         <image name="задача1Умножение" width="214" height="205"/>
+        <image name="кружки" width="480" height="165"/>
         <image name="умножение 4" width="44" height="59"/>
         <image name="умножение1" width="39" height="44"/>
         <image name="умножение5" width="48" height="79"/>

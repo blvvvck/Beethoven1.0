@@ -12,16 +12,15 @@ class MultiplyTaskPopUpViewController1: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     
+    var heightOfScroll : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+          
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         self.showAnimate()
-        scrollView.contentSize = CGSize(width: 200, height: 800)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        scrollView.contentSize = CGSize(width: 200, height: heightOfScroll)
+        changeScrollState(with: false)
     }
     
 
@@ -29,6 +28,7 @@ class MultiplyTaskPopUpViewController1: UIViewController {
         (parent as! SecondViewControllerMultiply).popUpShow = false
         self.removeAnimate()
         self.view.removeFromSuperview()
+        changeScrollState(with: true)
     }
     
     func showAnimate()
@@ -54,14 +54,13 @@ class MultiplyTaskPopUpViewController1: UIViewController {
         });
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private func changeScrollState(with bool: Bool) {
+        let multiplyController = parent as! SecondViewControllerMultiply
+        let rootController = multiplyController.parent as! RootViewController
+        let scrollView = rootController.view.subviews[0] as! UIScrollView
+        
+        scrollView.isScrollEnabled = bool
     }
-    */
+    
 
 }

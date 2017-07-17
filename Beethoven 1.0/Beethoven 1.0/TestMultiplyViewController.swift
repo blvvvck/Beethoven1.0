@@ -14,6 +14,7 @@ class TestMultiplyViewController: UIViewController, UIPickerViewDataSource, UIPi
     @IBOutlet weak var secondNumberLable: UILabel!
     @IBOutlet weak var answerResultMultiply: UITextField!
     @IBOutlet weak var difficultyLevelPickerView: UIPickerView!
+
     
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
