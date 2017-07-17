@@ -147,6 +147,7 @@ class ChecklistTableViewController: UITableViewController, AddItemViewController
         let archiver = NSKeyedArchiver(forWritingWith : data)
         
         archiver.encode(items, forKey: "ChecklistItems")
+
         archiver.finishEncoding()
         data.write(to: dataFilePaths(), atomically: true)
     

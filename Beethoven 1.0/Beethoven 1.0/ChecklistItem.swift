@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UserNotifications
 
 class ChecklistItem: NSObject, NSCoding {
     
@@ -16,7 +17,7 @@ class ChecklistItem: NSObject, NSCoding {
     var shouldRemind = false
     //var itemID: Int
     
-    func toggleChecked(){
+    func toggleChecked() {
         checked = !checked
     }
     
@@ -44,6 +45,26 @@ class ChecklistItem: NSObject, NSCoding {
     override init() {
         
         super.init()
+    }
+    
+    func scheduleNotifications(){
+        if shouldRemind && dueDate > Date() {
+
+            let content = UNMutableNotificationContent()
+            content.title = "Напоминание"
+            content.body = text
+            content.sound = UNNotificationSound.default()
+            
+            let calendar = Calendar(identifier: .iso8601)
+            let components = calendar.dateComponents([.month, .day, .hour, .minute,], from: dueDate)
+            
+            let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+            let center = UNUserNotificationCenter.current()
+            center.add(request)
+            
+        }
     }
     
     /*var dueDate = Date()
