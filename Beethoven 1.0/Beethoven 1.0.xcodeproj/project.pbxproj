@@ -19,6 +19,8 @@
 		C35C1D4F1F160FCF003A57DA /* Beethoven_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D4E1F160FCF003A57DA /* Beethoven_1_0Tests.swift */; };
 		C35C1D5A1F160FCF003A57DA /* Beethoven_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */; };
 		C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D691F1643D0003A57DA /* CollectionViewController.swift */; };
+		C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */; };
+		C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */; };
 		C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */; };
 		C78968131F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		C35C1D591F160FCF003A57DA /* Beethoven_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_1_0UITests.swift; sourceTree = "<group>"; };
 		C35C1D5B1F160FCF003A57DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35C1D691F1643D0003A57DA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerForTest1.swift; path = ../ViewControllerForTest1.swift; sourceTree = "<group>"; };
+		C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForTest2.swift; sourceTree = "<group>"; };
 		C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForCollectionViewController.swift; sourceTree = "<group>"; };
 		C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyTaskPopUpViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +115,7 @@
 		C35C1D381F160FCF003A57DA /* Beethoven 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */,
 				C35C1D391F160FCF003A57DA /* AppDelegate.swift */,
 				958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */,
 				95778C441F1655160016E36C /* RootViewController.swift */,
@@ -119,6 +124,7 @@
 				C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */,
 				2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */,
 				2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */,
+				C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
 				C35C1D421F160FCF003A57DA /* LaunchScreen.storyboard */,
@@ -288,6 +294,8 @@
 				2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */,
 				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,
 				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
+				C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */,
+				C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */,
 				C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,13 +450,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Beethoven 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Folder.Beethoven-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,13 +467,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Beethoven 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Folder.Beethoven-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
