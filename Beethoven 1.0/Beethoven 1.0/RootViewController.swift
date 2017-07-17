@@ -14,9 +14,9 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         
-        let vc1 = sb.instantiateViewController(withIdentifier: "YellowVC")
+        let vc1 = sb.instantiateViewController(withIdentifier: "GreenVC")
         
-        let vc2 = sb.instantiateViewController(withIdentifier: "GreenVC")
+        let vc2 = sb.instantiateViewController(withIdentifier: "YellowVC")
         
         let vc3 = sb.instantiateViewController(withIdentifier: "RedVC")
         
@@ -53,6 +53,7 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+       
         
         guard let vcIndex = viewControllerList.index(of: viewController) else {return nil}
         
@@ -63,7 +64,8 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         guard viewControllerList.count > previousIndex else {return nil}
         
         return viewControllerList[previousIndex]
-        
     }
+    
+    
     
 }
