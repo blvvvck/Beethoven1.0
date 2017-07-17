@@ -110,5 +110,8 @@ class TestMultiplyViewController: UIViewController, UIPickerViewDataSource, UIPi
 
     }
     
+    @IBAction func returnToMenu4(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
 }

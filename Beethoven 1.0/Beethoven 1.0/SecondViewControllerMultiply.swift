@@ -17,7 +17,8 @@ class SecondViewControllerMultiply: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollUIView.contentSize = CGSize(width: view.bounds.width, height: 1700)
+        scrollUIView.contentSize = CGSize(width: view.bounds.width, height: 1750
+)
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,4 +46,10 @@ class SecondViewControllerMultiply: UIViewController {
         popUpShow = true
     }
     
+    
+    @IBAction func returnToMenu2(_ sender: Any) {
+        guard let lParent = parent else { return }
+        
+        lParent.dismiss(animated: true, completion: nil)
+    }
 }

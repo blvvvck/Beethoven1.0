@@ -135,12 +135,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgT-lx-3zr">
-                                <rect key="frame" x="106" y="328" width="126" height="43"/>
+                                <rect key="frame" x="97" y="347" width="126" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Проверить"/>
                                 <connections>
                                     <action selector="checkAnswerButtonPressed:" destination="wl8-dC-R3M" eventType="touchUpInside" id="oTB-C6-FVT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2N-kE-JLs">
+                                <rect key="frame" x="132" y="455" width="56" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Меню"/>
+                                <connections>
+                                    <action selector="returnToMenu4:" destination="wl8-dC-R3M" eventType="touchUpInside" id="Htw-7i-A6Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -359,7 +368,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Gac-BX-Ayc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6wO-oN-www">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1060"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1140"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uq5-0o-xDD">
@@ -425,10 +434,6 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="кружки" translatesAutoresizingMaskIntoConstraints="NO" id="Slp-rt-iE7">
-                                                <rect key="frame" x="40" y="561" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLR-a5-nk5">
                                                 <rect key="frame" x="36" y="678" width="248" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -446,6 +451,19 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="кружки" translatesAutoresizingMaskIntoConstraints="NO" id="Slp-rt-iE7">
+                                                <rect key="frame" x="40" y="562" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6th-Ae-dfj">
+                                                <rect key="frame" x="121" y="990" width="77" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="Меню"/>
+                                                <connections>
+                                                    <action selector="returnToMenu2:" destination="BcU-Ka-khL" eventType="touchUpInside" id="eN2-m5-rup"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </scrollView>
                                 </subviews>
@@ -455,14 +473,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1060"/>
+                    <size key="freeformSize" width="320" height="1140"/>
                     <connections>
                         <outlet property="scrollUIView" destination="khR-Bs-bpK" id="fib-3v-yQy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI0-QK-2If" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1823" y="907"/>
+            <point key="canvasLocation" x="1822.5" y="949.64788732394368"/>
         </scene>
         <!--Multiply Task Pop Up View Controller1-->
         <scene sceneID="dDI-dr-6S4">
