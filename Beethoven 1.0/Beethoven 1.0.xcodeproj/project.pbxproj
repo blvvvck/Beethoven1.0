@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23082B171F1CD267007F7725 /* icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B0B1F1CD267007F7725 /* icon20.png */; };
-		23082B181F1CD267007F7725 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B0C1F1CD267007F7725 /* icon29.png */; };
-		23082B191F1CD267007F7725 /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B0D1F1CD267007F7725 /* icon40.png */; };
-		23082B1A1F1CD267007F7725 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B0E1F1CD267007F7725 /* icon58.png */; };
-		23082B1B1F1CD267007F7725 /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B0F1F1CD267007F7725 /* icon60.png */; };
-		23082B1C1F1CD267007F7725 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B101F1CD267007F7725 /* icon76.png */; };
-		23082B1D1F1CD267007F7725 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B111F1CD267007F7725 /* icon80.png */; };
-		23082B1E1F1CD267007F7725 /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B121F1CD267007F7725 /* icon87.png */; };
-		23082B1F1F1CD267007F7725 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B131F1CD267007F7725 /* icon120.png */; };
-		23082B201F1CD267007F7725 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B141F1CD267007F7725 /* icon152.png */; };
-		23082B211F1CD267007F7725 /* icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B151F1CD267007F7725 /* icon167.png */; };
-		23082B221F1CD267007F7725 /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 23082B161F1CD267007F7725 /* icon180.png */; };
 		95778C451F1655160016E36C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95778C441F1655160016E36C /* RootViewController.swift */; };
 		958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */; };
 		9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */; };
@@ -52,18 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23082B0B1F1CD267007F7725 /* icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon20.png; path = ../../../../icons/icon20.png; sourceTree = "<group>"; };
-		23082B0C1F1CD267007F7725 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon29.png; path = ../../../../icons/icon29.png; sourceTree = "<group>"; };
-		23082B0D1F1CD267007F7725 /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon40.png; path = ../../../../icons/icon40.png; sourceTree = "<group>"; };
-		23082B0E1F1CD267007F7725 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon58.png; path = ../../../../icons/icon58.png; sourceTree = "<group>"; };
-		23082B0F1F1CD267007F7725 /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon60.png; path = ../../../../icons/icon60.png; sourceTree = "<group>"; };
-		23082B101F1CD267007F7725 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon76.png; path = ../../../../icons/icon76.png; sourceTree = "<group>"; };
-		23082B111F1CD267007F7725 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon80.png; path = ../../../../icons/icon80.png; sourceTree = "<group>"; };
-		23082B121F1CD267007F7725 /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon87.png; path = ../../../../icons/icon87.png; sourceTree = "<group>"; };
-		23082B131F1CD267007F7725 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon120.png; path = ../../../../icons/icon120.png; sourceTree = "<group>"; };
-		23082B141F1CD267007F7725 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon152.png; path = ../../../../icons/icon152.png; sourceTree = "<group>"; };
-		23082B151F1CD267007F7725 /* icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon167.png; path = ../../../../icons/icon167.png; sourceTree = "<group>"; };
-		23082B161F1CD267007F7725 /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon180.png; path = ../../../../icons/icon180.png; sourceTree = "<group>"; };
 		95778C441F1655160016E36C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPageViewControllerInFirstMethodMultiply.swift; sourceTree = "<group>"; };
 		9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerInMultiply.swift; sourceTree = "<group>"; };
@@ -110,25 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23082AD81F1CAE23007F7725 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				23082B0B1F1CD267007F7725 /* icon20.png */,
-				23082B0C1F1CD267007F7725 /* icon29.png */,
-				23082B0D1F1CD267007F7725 /* icon40.png */,
-				23082B0E1F1CD267007F7725 /* icon58.png */,
-				23082B0F1F1CD267007F7725 /* icon60.png */,
-				23082B101F1CD267007F7725 /* icon76.png */,
-				23082B111F1CD267007F7725 /* icon80.png */,
-				23082B121F1CD267007F7725 /* icon87.png */,
-				23082B131F1CD267007F7725 /* icon120.png */,
-				23082B141F1CD267007F7725 /* icon152.png */,
-				23082B151F1CD267007F7725 /* icon167.png */,
-				23082B161F1CD267007F7725 /* icon180.png */,
-			);
-			name = Icons;
-			sourceTree = "<group>";
-		};
 		C35C1D2D1F160FCF003A57DA = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +114,6 @@
 				958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */,
 				95778C441F1655160016E36C /* RootViewController.swift */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
-				23082AD81F1CAE23007F7725 /* Icons */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
 				C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
@@ -294,21 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23082B1A1F1CD267007F7725 /* icon58.png in Resources */,
-				23082B201F1CD267007F7725 /* icon152.png in Resources */,
-				23082B1C1F1CD267007F7725 /* icon76.png in Resources */,
-				23082B1F1F1CD267007F7725 /* icon120.png in Resources */,
-				23082B171F1CD267007F7725 /* icon20.png in Resources */,
 				C35C1D441F160FCF003A57DA /* LaunchScreen.storyboard in Resources */,
-				23082B1D1F1CD267007F7725 /* icon80.png in Resources */,
-				23082B211F1CD267007F7725 /* icon167.png in Resources */,
 				C35C1D411F160FCF003A57DA /* Assets.xcassets in Resources */,
-				23082B1B1F1CD267007F7725 /* icon60.png in Resources */,
 				C35C1D3F1F160FCF003A57DA /* Main.storyboard in Resources */,
-				23082B191F1CD267007F7725 /* icon40.png in Resources */,
-				23082B1E1F1CD267007F7725 /* icon87.png in Resources */,
-				23082B181F1CD267007F7725 /* icon29.png in Resources */,
-				23082B221F1CD267007F7725 /* icon180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
