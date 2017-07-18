@@ -120,7 +120,7 @@ class ViewControllerForTest1: UIViewController {
         drawViewController()
         }
         else{
-            sender.setTitle("Не верно", for: .normal)
+            sender.setTitle("Неверно", for: .normal)
         }
         
     }

@@ -49,13 +49,13 @@ class CollectionViewController: UICollectionViewController {
             var cellData: CellData!
         
             if ( i != 32)&&(i != 0){
-                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[i+1]) >",textPast: "< \(alphabet[i-1])")
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[i+1]) > ",textPast: " < \(alphabet[i-1])")
             }
             if i == 32 {
-                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[0]) >", textPast: "< \(alphabet[i-1])")
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[0]) > ", textPast: " < \(alphabet[i-1])")
             }
             if i == 0{
-                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[1]) >", textPast: "< \(alphabet[32])")
+                cellData = CellData(text:"\(alphabet[i])" , image: UIImage(named: "\(countImage)")!, textNext: "\(alphabet[1]) > ", textPast: " < \(alphabet[32])")
 
             }
             cellDataArray.append(cellData)

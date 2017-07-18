@@ -28,7 +28,7 @@ class SecondViewControllerMultiply: UIViewController {
     
     
     @IBAction func multiplyTask1ButtonPressed(_ sender: Any) {
-        multiplyTaskButtonPressed(withIdentifier: "sbPopUpMultiplyTask1", heightOfScroll: 800)
+        multiplyTaskButtonPressed(withIdentifier: "sbPopUpMultiplyTask1", heightOfScroll: 730)
     }
     
     @IBAction func multiplyTask2ButtonPressed(_ sender: Any) {

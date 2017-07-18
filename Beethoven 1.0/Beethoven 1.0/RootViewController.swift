@@ -19,9 +19,7 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         let vc2 = sb.instantiateViewController(withIdentifier: "YellowVC")
         
-        let vc3 = sb.instantiateViewController(withIdentifier: "RedVC")
-        
-        return [vc1, vc2, vc3]
+        return [vc1, vc2]
         
     }()
     

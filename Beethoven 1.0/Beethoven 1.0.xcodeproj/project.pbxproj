@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23082B241F1DED1A007F7725 /* ViewControllerMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */; };
+		23082B261F1E3AD9007F7725 /* MainMultiplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23082B251F1E3AD9007F7725 /* MainMultiplyViewController.swift */; };
 		233E912B1F1DEA80001CF081 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E912A1F1DEA80001CF081 /* SpeechViewController.swift */; };
 		2391A5F01F18BEB100AD0146 /* SecondViewControllerMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */; };
 		2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu1.swift; sourceTree = "<group>"; };
+		23082B251F1E3AD9007F7725 /* MainMultiplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMultiplyViewController.swift; path = ../MainMultiplyViewController.swift; sourceTree = "<group>"; };
 		233E912A1F1DEA80001CF081 /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
 		2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewControllerMultiply.swift; sourceTree = "<group>"; };
 		2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMultiplyViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */,
 				C35C1D391F160FCF003A57DA /* AppDelegate.swift */,
+				23082B251F1E3AD9007F7725 /* MainMultiplyViewController.swift */,
 				958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */,
 				95778C441F1655160016E36C /* RootViewController.swift */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
@@ -315,6 +318,7 @@
 				95D83DB31F19253200405942 /* ChecklistTableViewController.swift in Sources */,
 				2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */,
 				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,
+				23082B261F1E3AD9007F7725 /* MainMultiplyViewController.swift in Sources */,
 				95D83DB71F19267900405942 /* AddItemViewController.swift in Sources */,
 				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
 				9537EDD81F1E0FFF005CD3AB /* HelpViewController.swift in Sources */,
