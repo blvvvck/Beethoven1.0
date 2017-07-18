@@ -8,18 +8,35 @@
 
 import UIKit
 import Speech
+import AVFoundation
 
 class SpeechViewController: UIViewController, SFSpeechRecognizerDelegate {
 
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var microphoneButton: UIButton!
     
+    @IBOutlet weak var textViewTextToSpeech: UITextView!
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "ru-RU"))!
     
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
     
+    let speechSynthesizer = AVSpeechSynthesizer()
+    var utterance = AVSpeechUtterance(string: "")
+    
+    
+    @IBAction func clearTextFieldButton(_ sender: Any) {
+        textViewTextToSpeech.text = ""
+    }
+    @IBAction func textToSpeech(_ sender: Any) {
+        utterance = AVSpeechUtterance(string: textViewTextToSpeech.text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "ru-RU")
+        speechSynthesizer.speak(utterance)
+    }
+    @IBAction func clearSpeechToTextTextView(_ sender: Any) {
+        textView.text = " "
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,6 +69,16 @@ class SpeechViewController: UIViewController, SFSpeechRecognizerDelegate {
                 self.microphoneButton.isEnabled = isButtonEnabled
             }
         }
+        
+        let touch = UITapGestureRecognizer(target: self, action: #selector(viewDidEndEditing))
+        view.addGestureRecognizer(touch)
+        
+        textViewTextToSpeech.textAlignment = .center
+        textView.textAlignment = .center
+    }
+    
+    func viewDidEndEditing() {
+        view.endEditing(true)
     }
     
     @IBAction func microphoneTapped(_ sender: AnyObject) {
@@ -128,7 +155,7 @@ class SpeechViewController: UIViewController, SFSpeechRecognizerDelegate {
             print("audioEngine couldn't start because of an error.")
         }
         
-        textView.text = "Say something, I'm listening!"
+        textView.text = "Говорите..."
         
     }
     
