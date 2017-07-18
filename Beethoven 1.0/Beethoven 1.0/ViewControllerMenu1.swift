@@ -39,8 +39,8 @@ class ViewControllerMenu1: UIViewController {
     func viewDidAppear(animated: Bool) {
         
         let navigationBar = self.navigationController?.navigationBar
-        navigationBar?.barTintColor = UIColor.orange
-        navigationBar?.tintColor = UIColor.orange
+        //navigationBar?.barTintColor = UIColor.darkGray
+        //navigationBar?.tintColor = UIColor.darkGray
     }
     
 
