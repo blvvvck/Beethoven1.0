@@ -27,6 +27,7 @@ class ViewControllerMenu1: UIViewController {
         
         buttonAlphavit.layer.cornerRadius = 7.0
         buttonAlphavit.clipsToBounds = true
+        viewDidAppear(animated: true)
 
         // Do any additional setup after loading the view.
     }
@@ -34,6 +35,12 @@ class ViewControllerMenu1: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func viewDidAppear(animated: Bool) {
+        
+        let navigationBar = self.navigationController?.navigationBar
+        navigationBar?.barTintColor = UIColor.orange
+        navigationBar?.tintColor = UIColor.orange
     }
     
 
