@@ -9,7 +9,8 @@
 import UIKit
 
 class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
-    
+    var currentIndex: Int = 0
+
     var viewControllerList: [UIViewController] = {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
@@ -30,11 +31,10 @@ class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         self.dataSource = self
         
-        if let firstViewController = viewControllerList.first{
-            self.setViewControllers([firstViewController ], direction: .forward, animated: true, completion: nil)
-        }
+        let firstViewController = viewControllerList[currentIndex]
         
-        // Do any additional setup after loading the view.
+        self.setViewControllers([firstViewController ], direction: .forward, animated: true, completion: nil)
+        
     }
     
     

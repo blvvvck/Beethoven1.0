@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mhV-NZ-Oxe">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -44,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fdv-hl-hsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="591" y="-125"/>
+            <point key="canvasLocation" x="1588.125" y="-125.70422535211267"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="Lyn-uq-2ub">
@@ -54,7 +54,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T39-l8-rf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="-126"/>
+            <point key="canvasLocation" x="2726.25" y="-126.7605633802817"/>
         </scene>
         <!--Test Multiply View Controller-->
         <scene sceneID="FKI-Yy-rX2">
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0V-1v-Y8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2658.75" y="-127.8169014084507"/>
+            <point key="canvasLocation" x="3656.25" y="-127.8169014084507"/>
         </scene>
         <!--Item-->
         <scene sceneID="xK9-9e-pl3">
@@ -250,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qN-jC-qhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1179.375" y="1103.8732394366198"/>
+            <point key="canvasLocation" x="815.625" y="1103.8732394366198"/>
         </scene>
         <!--First View Controller In Multiply-->
         <scene sceneID="WfI-eA-4uO">
@@ -443,7 +443,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kf-pd-OzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1085.625" y="875.70422535211264"/>
+            <point key="canvasLocation" x="3080.625" y="875.70422535211264"/>
         </scene>
         <!--Second View Controller Multiply-->
         <scene sceneID="brA-4G-ZqT">
@@ -566,7 +566,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI0-QK-2If" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1822.5" y="949.64788732394368"/>
+            <point key="canvasLocation" x="3817.5" y="949.64788732394368"/>
         </scene>
         <!--Multiply Task Pop Up View Controller1-->
         <scene sceneID="dDI-dr-6S4">
@@ -682,7 +682,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oHu-cj-xAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2603" y="648"/>
+            <point key="canvasLocation" x="4597.5" y="647.53521126760563"/>
         </scene>
         <!--Напоминания-->
         <scene sceneID="JKE-8J-zUk">
@@ -1175,9 +1175,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbF-ao-UyX">
-                                <rect key="frame" x="128" y="496" width="64" height="30"/>
+                                <rect key="frame" x="128" y="496" width="64" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <state key="normal" title="Помощь"/>
+                                <connections>
+                                    <segue destination="lwz-4c-Z4l" kind="push" id="uSZ-D0-4k3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Чем вы займетесь сегодня?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvG-p9-YDd">
                                 <rect key="frame" x="36" y="285" width="249" height="21"/>
@@ -1189,10 +1192,74 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Me0-Gb-VUZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JjW-ix-hZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2034.4000000000001" y="-124.58770614692655"/>
+            <point key="canvasLocation" x="-1038.75" y="-124.64788732394366"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="aaP-NX-HPt">
+            <objects>
+                <viewController id="lwz-4c-Z4l" customClass="HelpViewController" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Laa-g1-cuy"/>
+                        <viewControllerLayoutGuide type="bottom" id="a3J-Tw-ipd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sEP-T4-Lzu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Приветствуем вас в нашем приложении!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4kk-X1-kNI">
+                                <rect key="frame" x="40" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Оно содержит четыре основных блока функционала:                                                 " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dda-pE-j7L">
+                                <rect key="frame" x="16" y="127" width="288" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1. Язык жестов и тесты, что бы вы смогли проверить себя               " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j1W-Js-lAa">
+                                <rect key="frame" x="16" y="186" width="288" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="2. Обучение умножению и тесты разных уровней сложности" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kva-QG-834">
+                                <rect key="frame" x="16" y="231" width="288" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="3. Добавление и редактирование напоминаний с возможностью установить push уведомление к каждому из них" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y5C-Uc-gfu">
+                                <rect key="frame" x="16" y="280" width="288" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="4. Для удобного общения были добавлены функции перевода текста в аудио и обратно" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KK9-S0-2l8">
+                                <rect key="frame" x="16" y="362" width="288" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uKU-Jx-DxB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3Z-bx-gXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1040.625" y="672.88732394366195"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="PmR-Ji-zd4">
@@ -1213,7 +1280,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlh-Pc-acF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1178" y="-125"/>
+            <point key="canvasLocation" x="-181.875" y="-125.70422535211267"/>
         </scene>
         <!--Item-->
         <scene sceneID="P2M-DR-qbc">
@@ -1346,6 +1413,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oJI-P7-bzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1823" y="2952"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hUW-ih-Qve">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mhV-NZ-Oxe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d2T-we-FSa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="abf-oZ-BxU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZI-8n-xbZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2036.25" y="-124.64788732394366"/>
         </scene>
     </scenes>
     <resources>
