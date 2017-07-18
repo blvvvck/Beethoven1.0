@@ -48,6 +48,13 @@ class TestMultiplyViewController: UIViewController, UIPickerViewDataSource, UIPi
         super.viewDidLoad()
         layerOnNextClick()
         createTask()
+        
+        let touch = UITapGestureRecognizer(target: self, action: #selector(viewDidEndEditing))
+        view.addGestureRecognizer(touch)
+    }
+    
+    func viewDidEndEditing() {
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {
