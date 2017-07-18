@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23082B241F1DED1A007F7725 /* ViewControllerMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */; };
 		95778C451F1655160016E36C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95778C441F1655160016E36C /* RootViewController.swift */; };
 		958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */; };
 		9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu1.swift; sourceTree = "<group>"; };
 		95778C441F1655160016E36C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPageViewControllerInFirstMethodMultiply.swift; sourceTree = "<group>"; };
 		9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerInMultiply.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				95778C441F1655160016E36C /* RootViewController.swift */,
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
+				23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */,
 				C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */,
+				23082B241F1DED1A007F7725 /* ViewControllerMenu1.swift in Sources */,
 				95778C451F1655160016E36C /* RootViewController.swift in Sources */,
 				9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */,
 				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,

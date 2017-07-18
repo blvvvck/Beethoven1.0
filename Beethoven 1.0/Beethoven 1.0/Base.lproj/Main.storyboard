@@ -543,7 +543,7 @@
         <!--Язык жестов-->
         <scene sceneID="Alb-r4-Hqt">
             <objects>
-                <viewController id="z89-4e-kaL" sceneMemberID="viewController">
+                <viewController id="z89-4e-kaL" customClass="ViewControllerMenu1" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pp9-Av-64F"/>
                         <viewControllerLayoutGuide type="bottom" id="P4k-mP-kJm"/>
@@ -552,9 +552,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFn-Vf-dKX">
+                                <rect key="frame" x="119" y="222" width="83" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Алфавит"/>
+                                <connections>
+                                    <segue destination="f89-Nd-SH4" kind="push" identifier="segue" id="SZH-jp-Cnw"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x34-6F-pLy">
-                                <rect key="frame" x="129" y="269" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <rect key="frame" x="119" y="264" width="83" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Тест 1"/>
                                 <connections>
@@ -562,21 +572,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4H-Ar-p1m">
-                                <rect key="frame" x="131" y="307" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <rect key="frame" x="119" y="307" width="83" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Тест 2"/>
                                 <connections>
                                     <segue destination="XSm-DK-cp7" kind="push" id="kSY-a1-acx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFn-Vf-dKX">
-                                <rect key="frame" x="121" y="231" width="78" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Алфавит"/>
-                                <connections>
-                                    <segue destination="f89-Nd-SH4" kind="push" identifier="segue" id="SZH-jp-Cnw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -584,6 +585,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="KiK-Cm-SFb"/>
                     <navigationItem key="navigationItem" title="Язык жестов" id="66S-SW-eTq"/>
+                    <connections>
+                        <outlet property="buttonAlphavit" destination="CFn-Vf-dKX" id="BSI-dk-MzM"/>
+                        <outlet property="buttonTest1" destination="x34-6F-pLy" id="vRy-Yq-70N"/>
+                        <outlet property="buttonTest2" destination="G4H-Ar-p1m" id="aIa-CI-XjI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfV-0M-hte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
