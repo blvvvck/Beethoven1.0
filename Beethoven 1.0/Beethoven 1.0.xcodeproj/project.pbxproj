@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		23082B241F1DED1A007F7725 /* ViewControllerMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */; };
+		233E912B1F1DEA80001CF081 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E912A1F1DEA80001CF081 /* SpeechViewController.swift */; };
+		2391A5F01F18BEB100AD0146 /* SecondViewControllerMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */; };
+		2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */; };
 		95778C451F1655160016E36C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95778C441F1655160016E36C /* RootViewController.swift */; };
 		958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */; };
 		9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */; };
+		95D83DB31F19253200405942 /* ChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D83DB21F19253200405942 /* ChecklistTableViewController.swift */; };
+		95D83DB51F19255F00405942 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D83DB41F19255F00405942 /* ChecklistItem.swift */; };
+		95D83DB71F19267900405942 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D83DB61F19267900405942 /* AddItemViewController.swift */; };
 		C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C1D391F160FCF003A57DA /* AppDelegate.swift */; };
 		C35C1D3F1F160FCF003A57DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D3D1F160FCF003A57DA /* Main.storyboard */; };
 		C35C1D411F160FCF003A57DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35C1D401F160FCF003A57DA /* Assets.xcassets */; };
@@ -21,6 +27,7 @@
 		C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */; };
 		C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */; };
 		C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */; };
+		C78968131F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +49,15 @@
 
 /* Begin PBXFileReference section */
 		23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu1.swift; sourceTree = "<group>"; };
+		233E912A1F1DEA80001CF081 /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewControllerMultiply.swift; sourceTree = "<group>"; };
+		2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMultiplyViewController.swift; sourceTree = "<group>"; };
 		95778C441F1655160016E36C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		958617101F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPageViewControllerInFirstMethodMultiply.swift; sourceTree = "<group>"; };
 		9586171A1F17751400CF08F8 /* FirstViewControllerInMultiply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerInMultiply.swift; sourceTree = "<group>"; };
+		95D83DB21F19253200405942 /* ChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewController.swift; sourceTree = "<group>"; };
+		95D83DB41F19255F00405942 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		95D83DB61F19267900405942 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		C35C1D361F160FCF003A57DA /* Beethoven 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beethoven 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C1D391F160FCF003A57DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35C1D3E1F160FCF003A57DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +74,7 @@
 		C39A797D1F18B53F005F57ED /* ViewControllerForTest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerForTest1.swift; path = ../ViewControllerForTest1.swift; sourceTree = "<group>"; };
 		C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForTest2.swift; sourceTree = "<group>"; };
 		C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForCollectionViewController.swift; sourceTree = "<group>"; };
+		C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyTaskPopUpViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,13 @@
 				C35C1D691F1643D0003A57DA /* CollectionViewController.swift */,
 				C35C1D3D1F160FCF003A57DA /* Main.storyboard */,
 				23082B231F1DED1A007F7725 /* ViewControllerMenu1.swift */,
+				233E912A1F1DEA80001CF081 /* SpeechViewController.swift */,
+				95D83DB61F19267900405942 /* AddItemViewController.swift */,
+				95D83DB21F19253200405942 /* ChecklistTableViewController.swift */,
+				95D83DB41F19255F00405942 /* ChecklistItem.swift */,
+				C78968121F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift */,
+				2391A5F11F18C6B900AD0146 /* TestMultiplyViewController.swift */,
+				2391A5EF1F18BEB100AD0146 /* SecondViewControllerMultiply.swift */,
 				C39A79811F1C9CE6005F57ED /* ViewControllerForTest2.swift */,
 				C3B644F71F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift */,
 				C35C1D401F160FCF003A57DA /* Assets.xcassets */,
@@ -214,7 +235,8 @@
 				TargetAttributes = {
 					C35C1D351F160FCF003A57DA = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 77843YCLH4;
+						ProvisioningStyle = Automatic;
 					};
 					C35C1D491F160FCF003A57DA = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -282,13 +304,20 @@
 			files = (
 				958617111F165F2800CF08F8 /* LastPageViewControllerInFirstMethodMultiply.swift in Sources */,
 				23082B241F1DED1A007F7725 /* ViewControllerMenu1.swift in Sources */,
+				233E912B1F1DEA80001CF081 /* SpeechViewController.swift in Sources */,
 				95778C451F1655160016E36C /* RootViewController.swift in Sources */,
+				C78968131F1BEB5000E69FAB /* MultiplyTaskPopUpViewController1.swift in Sources */,
+				2391A5F01F18BEB100AD0146 /* SecondViewControllerMultiply.swift in Sources */,
 				9586171B1F17751400CF08F8 /* FirstViewControllerInMultiply.swift in Sources */,
+				95D83DB31F19253200405942 /* ChecklistTableViewController.swift in Sources */,
+				2391A5F21F18C6B900AD0146 /* TestMultiplyViewController.swift in Sources */,
 				C3B644F81F176CEF0016CFE6 /* ViewControllerForCollectionViewController.swift in Sources */,
+				95D83DB71F19267900405942 /* AddItemViewController.swift in Sources */,
 				C35C1D6A1F1643D0003A57DA /* CollectionViewController.swift in Sources */,
 				C39A797E1F18B53F005F57ED /* ViewControllerForTest1.swift in Sources */,
 				C39A79821F1C9CE6005F57ED /* ViewControllerForTest2.swift in Sources */,
 				C35C1D3A1F160FCF003A57DA /* AppDelegate.swift in Sources */,
+				95D83DB51F19255F00405942 /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +476,7 @@
 				INFOPLIST_FILE = "Beethoven 1.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Folder.Beethoven-1-0";
+				PRODUCT_BUNDLE_IDENTIFIER = blvvvck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -464,7 +493,7 @@
 				INFOPLIST_FILE = "Beethoven 1.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Folder.Beethoven-1-0";
+				PRODUCT_BUNDLE_IDENTIFIER = blvvvck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
