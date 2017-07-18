@@ -25,9 +25,6 @@
                                 <rect key="frame" x="49" y="83" width="223" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Что такое умножение"/>
-                                <rect key="frame" x="49" y="228" width="223" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
-                                <state key="normal" title="умножение столбиком"/>
                                 <connections>
                                     <segue destination="cpS-aH-j8N" kind="modal" id="7f3-3t-RAw"/>
                                 </connections>
@@ -168,6 +165,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0V-1v-Y8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2658.75" y="-127.8169014084507"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xK9-9e-pl3">
+            <objects>
+                <viewController id="QRY-Vl-T15" customClass="SpeechViewController" customModule="Beethoven_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bRb-gf-I8g"/>
+                        <viewControllerLayoutGuide type="bottom" id="qo5-Qn-xpb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dUr-dL-Fdx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Перевод из аудио в текст" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrR-xn-U24">
+                                <rect key="frame" x="57" y="270" width="206" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubx-IV-Hly">
+                                <rect key="frame" x="101" y="455" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Начать запись"/>
+                                <connections>
+                                    <action selector="microphoneTapped:" destination="QRY-Vl-T15" eventType="touchUpInside" id="rux-Ux-MKT"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="TextView" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rEW-c6-7V0">
+                                <rect key="frame" x="36" y="326" width="248" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="bvf-hG-wP4"/>
+                    <connections>
+                        <outlet property="microphoneButton" destination="ubx-IV-Hly" id="OJ4-AJ-iqD"/>
+                        <outlet property="textView" destination="rEW-c6-7V0" id="FXk-Fu-BZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0qN-jC-qhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1179.375" y="1103.8732394366198"/>
         </scene>
         <!--First View Controller In Multiply-->
         <scene sceneID="WfI-eA-4uO">
@@ -449,7 +493,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izx-vp-AIT">
                                                 <rect key="frame" x="17" y="732" width="287" height="245"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Смысл дей­ствия умно­же­ния со­сто­ит в том, что при умно­же­нии на­хо­дит­ся сумма оди­на­ко­вых сла­га­е­мых. Пер­вое число при умно­же­нии по­ка­зы­ва­ет, какое сла­га­е­мое по­вто­ря­ют несколь­ко раз. Вто­рое число при умно­же­нии по­ка­зы­ва­ет, сколь­ко раз по­вто­ря­ют это сла­га­е­мое. Ре­зуль­тат умно­же­ния по­ка­зы­ва­ет, какое число по­лу­ча­ет­ся.                                    На­при­мер : 4 · 3 = 12</mutableString>
+                                                <string key="text">Смысл дей­ствия умно­же­ния со­сто­ит в том, что при умно­же­нии на­хо­дит­ся сумма оди­на­ко­вых сла­га­е­мых. Пер­вое число при умно­же­нии по­ка­зы­ва­ет, какое сла­га­е­мое по­вто­ря­ют несколь­ко раз. Вто­рое число при умно­же­нии по­ка­зы­ва­ет, сколь­ко раз по­вто­ря­ют это сла­га­е­мое. Ре­зуль­тат умно­же­ния по­ка­зы­ва­ет, какое число по­лу­ча­ет­ся.                                    На­при­мер : 4 · 3 = 12</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -653,7 +697,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6NQ-4S-ulR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848" y="-1905"/>
+            <point key="canvasLocation" x="713" y="-3065"/>
         </scene>
         <!--Добавить напоминание-->
         <scene sceneID="2y4-fr-RLg">
@@ -773,7 +817,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CE1-8A-HqY" id="5DK-Re-kGD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="216.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bma-xJ-925">
@@ -790,7 +834,7 @@
                     </tableViewCellContentView>
                 </tableViewCell>
             </objects>
-            <point key="canvasLocation" x="2604" y="-1907"/>
+            <point key="canvasLocation" x="2603" y="-3065"/>
         </scene>
         <!--View Controller For Collection View Controller-->
         <scene sceneID="DuN-vr-fpV">
@@ -1125,6 +1169,7 @@
                         <segue destination="isx-HO-UEi" kind="relationship" relationship="viewControllers" id="rwT-B2-HEO"/>
                         <segue destination="2I6-PZ-INj" kind="relationship" relationship="viewControllers" id="er2-2W-pN6"/>
                         <segue destination="COK-li-iSg" kind="relationship" relationship="viewControllers" id="RzL-lY-d2y"/>
+                        <segue destination="QRY-Vl-T15" kind="relationship" relationship="viewControllers" id="sn8-Dn-hJS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlh-Pc-acF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1148,7 +1193,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LZT-lZ-twO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-24" y="-1905"/>
+            <point key="canvasLocation" x="-248" y="-3065"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Dn8-os-upg">
@@ -1166,7 +1211,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3KC-c8-CtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="-1906"/>
+            <point key="canvasLocation" x="1729" y="-3065"/>
         </scene>
         <!--Multiply Task Pop Up View Controller1-->
         <scene sceneID="m1v-7f-kOz">
