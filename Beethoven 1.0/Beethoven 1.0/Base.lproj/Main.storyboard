@@ -807,7 +807,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Время" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xjA-He-VdS">
-                                                    <rect key="frame" x="15" y="12" width="52" height="20.5"/>
+                                                    <rect key="frame" x="16" y="12" width="52" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1251,7 +1251,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Помощь" id="sXV-Mc-0wK"/>
+                    <tabBarItem key="tabBarItem" title="Помощь" image="Иконка помощи" selectedImage="Иконка помощи" id="sXV-Mc-0wK"/>
                     <navigationItem key="navigationItem" id="uKU-Jx-DxB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3Z-bx-gXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1417,6 +1417,7 @@
         <image name="Иконка алфавита" width="25" height="25"/>
         <image name="Иконка голоса" width="25" height="25"/>
         <image name="Иконка напоминаний" width="25" height="25"/>
+        <image name="Иконка помощи" width="25" height="25"/>
         <image name="Иконка умножения" width="25" height="25"/>
         <image name="задача1Умножение" width="214" height="205"/>
         <image name="икр" width="16" height="16"/>
