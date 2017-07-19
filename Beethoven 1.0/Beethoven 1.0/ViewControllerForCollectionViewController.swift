@@ -25,7 +25,13 @@ class ViewControllerForCollectionViewController: UIViewController {
         //отображение на экране
         display(with: indexOfCurrentChar, models:  models)
         
-        // Do any additional setup after loading the view.
+        buttonNextLetter.layer.borderWidth = 2
+        buttonNextLetter.layer.borderColor = UIColor.black.cgColor
+        buttonNextLetter.layer.cornerRadius = 10
+        
+        buttonPastLetter.layer.borderWidth = 2
+        buttonPastLetter.layer.borderColor = UIColor.black.cgColor
+        buttonPastLetter.layer.cornerRadius = 10
     }
 
     override func didReceiveMemoryWarning() {

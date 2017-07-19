@@ -16,6 +16,7 @@ class SpeechViewController: UIViewController, SFSpeechRecognizerDelegate {
     @IBOutlet weak var microphoneButton: UIButton!
     
     @IBOutlet weak var textViewTextToSpeech: UITextView!
+    
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "ru-RU"))!
     
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
